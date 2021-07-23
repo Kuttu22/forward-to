@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Dark Angel
+# (c) Kuttu_thomas
 
 import os
 from config import Config
@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 async def start(client, message):
     buttons = [[
         InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('📢Updates', url='https://t.me/Kuttu_thomas'),
         InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
     ],[
         InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
@@ -29,7 +29,7 @@ async def start(client, message):
 async def help(client, message):
     buttons = [[
         InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('📢Updates', url='https://t.me/Kuttu_thomas'),
         InlineKeyboardButton('🔐Close', callback_data='close_btn')
         ],[
         InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')

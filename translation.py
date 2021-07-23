@@ -4,13 +4,13 @@ from config import Config
 class Translation(object):
   START_TXT = """<b>Hai {}!!</b>
 
-<b>I'm Simple Auto file Forward Bot
+<b>I'm Simple Auto file Forward Bot my master is @Kuttu_thomas
 
 This Bot forward all files to One Public channel to Your Personal channel
 
 More details /help
 
-© @Mo_Tech_YT</b>"""
+© @Kuttu_thomas</b>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
   HELP_TXT = """<b>Follow These Steps!!</b>
 
@@ -35,7 +35,7 @@ More details /help
 
 <b>🤖Name :</b> <code>Auto Forward Bot</code>
 
-<b>👨‍🎓Credit :</b> <code>Dark Angel</code>
+<b>👨‍🎓Credit :</b> <code>Kuttu_thomas</code>
 
 <b>🎙️Language :</b> <code>Python3</code>
 

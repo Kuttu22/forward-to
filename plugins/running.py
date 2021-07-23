@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Dark Angel
+# (c) Kuttu_thomas
 
 import asyncio
 from pyrogram import Client, filters
@@ -22,7 +22,7 @@ async def run(bot, message):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     m = await bot.send_message(
-        text="<i>File Forwording Started😉</i>",
+        text="<i>File Forwording Started📖</i>",
         reply_markup=reply_markup,
         chat_id=message.chat.id
     )
